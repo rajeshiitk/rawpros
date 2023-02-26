@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/rawpro/static/css/main.33b8dc3a.css",
+    "main.js": "/rawpro/static/js/main.8e1097e0.js",
+    "static/media/logo.png": "/rawpro/static/media/logo.3c4b014c74cb29489096.png",
+    "static/media/eu.png": "/rawpro/static/media/eu.307338295a9820fe06bf.png",
+    "static/media/india.png": "/rawpro/static/media/india.58a52d02fea50bfe2c3a.png",
+    "index.html": "/rawpro/index.html",
+    "main.33b8dc3a.css.map": "/rawpro/static/css/main.33b8dc3a.css.map",
+    "main.8e1097e0.js.map": "/rawpro/static/js/main.8e1097e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33b8dc3a.css",
+    "static/js/main.8e1097e0.js"
+  ]
+}
