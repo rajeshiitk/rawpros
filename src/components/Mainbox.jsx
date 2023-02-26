@@ -9,7 +9,7 @@ const Mainbox = () => {
     return (
         <div className='main-box'>
             <div className="heading">
-                <p>133 New</p>
+                <p id='new'>133 New</p>
                 <p>Buy Requests from 35 Buyers</p>
             </div>
             <div className="top-left">
@@ -42,6 +42,11 @@ const Mainbox = () => {
                     <Border content={"Tag Long Tag 123"} />
                     <Border content={"Product"} />
                     <Border content={"Tag 1"} />
+                </div>
+
+                <div className='flex-arrow'>
+                <i class="fa-solid fa-right-long"></i>
+                <h4>See 5 similar RFQ</h4>
                 </div>
             </div>
             <div className="bottom-mid">

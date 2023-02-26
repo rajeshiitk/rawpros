@@ -4,9 +4,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 
+
+
     >div {
         display: flex;
         align-items: center;
+        
+    >h3{
+        margin: 0 2rem;
+    }
 
     }
 }
