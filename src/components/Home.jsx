@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import DateContainer from './DateContainer'
 import Topbar from './Topbar'
 import DateBox from './DateBox'
+import Mainbox from './Mainbox'
 
 const Home = () => {
   return (
@@ -10,16 +11,17 @@ const Home = () => {
         <h1>RFQ List</h1>
         <div>
           <h3>Sort By :</h3>
-          <DateBox Heading={"Published Date"}/>
-          <DateBox Heading={"Closing Date"}/>
+          <DateBox Heading={"Published Date"} />
+          <DateBox Heading={"Closing Date"} />
         </div>
         <h3>Preferred Source of Origin</h3>
       </div>
       <div className="main">
-      <Topbar/>
-
-      <div className="main-box">
-      </div>
+        <Topbar />
+        <Mainbox />
+        <div className="mainbox">
+        
+        </div>
       </div>
     </div>
   )
